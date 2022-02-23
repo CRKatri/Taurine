@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		36EC9E9E265B115F00A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = 366DA963265B0E250061D142 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */; };
+		7E2479E527C5DB180055ED92 /* binpack.tar in Resources */ = {isa = PBXBuildFile; fileRef = 7E2479E427C5DB180055ED92 /* binpack.tar */; };
+		7E2479E727C5DB740055ED92 /* dropbear.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E2479E627C5DB740055ED92 /* dropbear.plist */; };
 		8722909125D5BC41008E11FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8722909025D5BC41008E11FA /* Assets.xcassets */; };
 		8773B95D25EA2F640025E520 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8773B95C25EA2F640025E520 /* IOKit.framework */; };
 		E1877E0826A8D376000890AD /* ColourPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1877E0726A8D376000890AD /* ColourPickerCell.swift */; };
@@ -132,6 +134,8 @@
 
 /* Begin PBXFileReference section */
 		366DA963265B0E250061D142 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.1_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		7E2479E427C5DB180055ED92 /* binpack.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = binpack.tar; sourceTree = "<group>"; };
+		7E2479E627C5DB740055ED92 /* dropbear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dropbear.plist; sourceTree = "<group>"; };
 		8722908125D5BC40008E11FA /* Taurine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taurine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8722909025D5BC41008E11FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8722909325D5BC41008E11FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -321,6 +325,8 @@
 		F10E69CE25ECFEC300394109 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				7E2479E627C5DB740055ED92 /* dropbear.plist */,
+				7E2479E427C5DB180055ED92 /* binpack.tar */,
 				F15B3CD225F8162E002C1D78 /* basebinaries.tar */,
 				F15B3CE825F81719002C1D78 /* bootstrap.tar.gz */,
 				366DA963265B0E250061D142 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */,
@@ -589,6 +595,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2479E527C5DB180055ED92 /* binpack.tar in Resources */,
 				F15C33AF25EC1E340013351E /* BuildConfigs.xcconfig in Resources */,
 				F17E74EA25FF2CCD008262A7 /* Main.storyboard in Resources */,
 				F17E750F25FF2DD9008262A7 /* LaunchScreen.storyboard in Resources */,
@@ -597,6 +604,7 @@
 				F15B3CD325F8162E002C1D78 /* basebinaries.tar in Resources */,
 				F15B3CD825F8164B002C1D78 /* uicache.gz in Resources */,
 				F15B3CE925F81719002C1D78 /* bootstrap.tar.gz in Resources */,
+				7E2479E727C5DB740055ED92 /* dropbear.plist in Resources */,
 				F15B3CE025F8166C002C1D78 /* essential_0-4_iphoneos-arm.deb in Resources */,
 				F15B3CF325F81749002C1D78 /* signcert.p12 in Resources */,
 				36EC9E9E265B115F00A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb in Resources */,
